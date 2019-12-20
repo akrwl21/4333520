@@ -1,0 +1,1 @@
+git checkout - switch branches or restore working files. This command also updates files in the working branch to match with desired tree. If no paths are given, it will automatically update HEAD, and set desired branch as current branch.
