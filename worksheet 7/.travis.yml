@@ -7,9 +7,27 @@ branches:
      -gh -pages
   
 
+env:
+ global:
+  - GH_REPO_NAME: 4333520
+  - DOXYFILE: $TRAVIS_BUILD_DIR/Doxyfile
+  - GH_REPO_REF: github.com/akrwl21/4333520.git
+
+
+addons:
+ apt:
+  packages:
+    - doxygen
+    - graphviz
+
 # Build your code 
 script:
 
   -cmake .
   -make
   -make test
+
+after_success:
+ - cd $TRAVIS_BUILD_DIR
+ - chmod +x generateDocumentationAndDeploy.sh 
+ - ./generateDocumentationAndDeploy.sh
