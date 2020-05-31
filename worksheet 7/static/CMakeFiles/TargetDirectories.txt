@@ -1,0 +1,4 @@
+/Users/aakash/4333520/Worksheet4/calc_cmake/static/CMakeFiles/calc.dir
+/Users/aakash/4333520/Worksheet4/calc_cmake/static/CMakeFiles/rebuild_cache.dir
+/Users/aakash/4333520/Worksheet4/calc_cmake/static/CMakeFiles/edit_cache.dir
+/Users/aakash/4333520/Worksheet4/calc_cmake/static/CMakeFiles/maths.dir

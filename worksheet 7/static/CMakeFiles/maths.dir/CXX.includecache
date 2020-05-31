@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aakash/4333520/Worksheet4/calc_cmake/adder.cpp
+adder.h
+/Users/aakash/4333520/Worksheet4/calc_cmake/adder.h
+
+/Users/aakash/4333520/Worksheet4/calc_cmake/adder.h
+
